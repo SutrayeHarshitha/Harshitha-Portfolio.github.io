@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harshitha Personal Portfolio Website</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/e6b8371d90.js" crossorigin="anonymous"></script>
+    
+</head>
+
+</html>
+</head>
+
+<body>
+    <!-- Header section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="assests/WhatsApp Image 2024-08-14 at 7.16.32 PM.png" alt="logo image" class="logo" /> -->
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#services">Services</a></li> -->
+                    <li><a href="#works">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <p>UI/UX Designer</p> -->
+                <h1>
+                    Hi, I'm <span>Sutraye Harshitha</span> <br />
+                    <!-- <span>CSE[DATA SCIENCE]</span> <br /> -->
+                    DATA SCIENCE aspirant.
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assests/WhatsApp Image 2024-08-14 at 7.16.32 PM.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <h5>
+                        <p>Enthusiastic and highly motivated graduate in B.Tech
+                            (Computer Science and Engineering - Data Science). Eager to 
+                            apply academic knowledge and practical skills to contribute effecti
+                            vely to innovative projects, collaborate with teams and further
+                            professional growth within the dynamic field of software development.
+                        </p>
+                    </h5>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Technical Skills</span><br>SQL, Python, Java, Machine Learning, HTML, CSS,Java Script, Git, VS
+                                Code.</li>
+                            <li><span>Soft Skills</span><br>Communication, Team work, Time Management, Problem-Solving, Adaptability.</li>
+                            <li><span>Languages</span><br>English, Telugu, Hindi, Marati.</li>
+                        </ul>
+                    </div>
+        
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - 2025</span><br>
+                                <h4>Bachelor of Technology :</h4> Rajeev Gandhi Memorial College Of Engineering And
+                                Technology Relevant Coursework: Computer Science and Engineering (Data Science),
+                                CGPA:8.5 
+                            </li>
+                            <li><span>2019 - 2021</span><br>
+                                <h4>Intermediate : </h4> Rao's Junior College, Nandyal
+                            </li>
+                            <li><span>2018 - 2019</span><br>
+                                <h4>SSC :</h4> Rotary English Medium School, Nandyal
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Machine Learning</h2>
+                    <p>machine learning enables computers to learn from data and make decisions or predictions without being explicitly programmed to do so.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Power Bi</h2>
+                    <p>Designed and implemented interactive dashboards and reports using Power BI to provide actionable insights and support data-driven decision-making. Key responsibilities are Data Integration, Dashboard Creation, Advanced Analytics, Data Modeling.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Works section -->
+    <div id="works">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="works-list">
+                <div class="work">
+                    <img src="assests/social ads.jpeg"
+                        alt="work-1">
+                    <div class="layer">
+                        <h3>Social-Network-Ads</h3>
+                         <a href="https://github.com/SutrayeHarshitha/Social-Network-Ads.github.io"><i
+                                class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assests/netflix.jpeg.jpeg" alt="work-2">
+                    <div class="layer">
+                        <h3>Netflix Page</h3>
+                        <a href="https://sutrayeharshitha.github.io/Netflix-login-page"><i
+                                class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assests/download.jpeg" alt="work-3">
+                    <div class="layer">
+                        <h3>Wanderlust Travel Planner</h3>
+                        <a href="https://sutrayeharshitha.github.io/WanderLust.github.io"><i
+                                class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- Contact section -->
+    <div id="contact"> <br>
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>harshithasutraye@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone-flip"></i>+91 7780240189</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href=" https://www.linkedin.com/in/sutraye-harshitha-785330254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i> </a>
+                    </div>
+                    <a href="assets/my-cv.pdf" class="btn btn2" download>Download CV</a>
+                </div>
+                
+                <div class="contact-right">
+                    <form action=""> 
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    
+                </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>Copyright ©️ Harshitha. Made with <i class="fa-solid fa-heart"></i> by <a href="#">Harshitha</a></p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
